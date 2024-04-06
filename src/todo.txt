@@ -1,0 +1,11 @@
+- check subscription policy works with real lidar
+- subscribe to correct topic for real lidar
+- decide how to crop point cloud for actual competition
+- ground removal
+	- 'All the points that were considered inliers were then removed from
+the point cloud as well as all points lying below the plane' remove points below ground plane aswell
+	- seg.setDistanceThreshold, what does this do
+- clustering
+	- decide MinClusterSize
+	- decide MaxClusterSize
+	- need to classify each cluster as a cone or not a cone
